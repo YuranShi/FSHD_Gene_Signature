@@ -1,0 +1,26 @@
+LINE 641 : 2022-06-06 14:35:14,577 [INFO    ] Parsing data files for ssGSEA...........................
+LINE 579 : 2022-06-06 14:35:14,577 [DEBUG   ] Input data is a DataFrame with gene names
+LINE 608 : 2022-06-06 14:35:14,581 [WARNING ] Warning: dropping duplicated gene names, only keep the first values
+LINE 138 : 2022-06-06 14:35:15,450 [INFO    ] 0000 gene_sets have been filtered out when max_size=2000 and min_size=1
+LINE 648 : 2022-06-06 14:35:15,450 [INFO    ] 0003 gene_sets used for further statistical testing.....
+LINE 652 : 2022-06-06 14:35:15,450 [INFO    ] Start to run ssGSEA...Might take a while................
+LINE 744 : 2022-06-06 14:35:25,712 [INFO    ] Calculate Enrichment Score for Sample: GSM74357 
+LINE 744 : 2022-06-06 14:35:25,716 [INFO    ] Calculate Enrichment Score for Sample: GSM74358 
+LINE 744 : 2022-06-06 14:35:25,716 [INFO    ] Calculate Enrichment Score for Sample: GSM74359 
+LINE 744 : 2022-06-06 14:35:25,717 [INFO    ] Calculate Enrichment Score for Sample: GSM74360 
+LINE 744 : 2022-06-06 14:35:25,718 [INFO    ] Calculate Enrichment Score for Sample: GSM121358 
+LINE 744 : 2022-06-06 14:35:25,719 [INFO    ] Calculate Enrichment Score for Sample: GSM121359 
+LINE 744 : 2022-06-06 14:35:25,719 [INFO    ] Calculate Enrichment Score for Sample: GSM121362 
+LINE 744 : 2022-06-06 14:35:25,720 [INFO    ] Calculate Enrichment Score for Sample: GSM121364 
+LINE 744 : 2022-06-06 14:35:25,721 [INFO    ] Calculate Enrichment Score for Sample: GSM121365 
+LINE 744 : 2022-06-06 14:35:25,721 [INFO    ] Calculate Enrichment Score for Sample: GSM121366 
+LINE 744 : 2022-06-06 14:35:25,722 [INFO    ] Calculate Enrichment Score for Sample: GSM121367 
+LINE 744 : 2022-06-06 14:35:25,723 [INFO    ] Calculate Enrichment Score for Sample: GSM121370 
+LINE 744 : 2022-06-06 14:35:25,723 [INFO    ] Calculate Enrichment Score for Sample: GSM121371 
+LINE 744 : 2022-06-06 14:35:25,724 [INFO    ] Calculate Enrichment Score for Sample: GSM121372 
+LINE 744 : 2022-06-06 14:35:25,725 [INFO    ] Calculate Enrichment Score for Sample: GSM121373 
+LINE 744 : 2022-06-06 14:35:25,725 [INFO    ] Calculate Enrichment Score for Sample: GSM121374 
+LINE 744 : 2022-06-06 14:35:25,726 [INFO    ] Calculate Enrichment Score for Sample: GSM121407 
+LINE 744 : 2022-06-06 14:35:25,727 [INFO    ] Calculate Enrichment Score for Sample: GSM236619 
+LINE 778 : 2022-06-06 14:35:25,731 [INFO    ] Congratulations. GSEApy runs successfully................
+
