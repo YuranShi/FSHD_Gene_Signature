@@ -1,11 +1,37 @@
 Gene Signature Evaluation and Refinement
 ===
-This project contains data and code for the evaluation and refinement of FSHD gene signatures. 
+This project contains data and code for the evaluation and refinement of FSHD gene signatures.
+
+## Main Results
+
+#### Evaluate Discriminative Power of Combined Signature
+
+![figure1](figures/Combined%20signature.png)
+
+- ROC-AUC of the combined signature
+- Model: Random Forest
+- Scoring metric: 20 times 5-fold repeated stratified cross-validation
+
+#### Refinement of FSHD Gene Signatures
+
+![figure2](figures/Refined%20signature.png)
+
+- Model: Random Forest + Boruta Feature Selection
+- 13 genes selected from combined gene signatures
+
+#### Exploratory Analysis for FSHD Gene Signatures
+
+![figure3](figures/Exploratory%20signature.png)
+
+- Select based on Correlation + ANOVA F
+- 30 genes selected from all genes
 
 ## Getting Started
+
 Install dependencies in `requirements.txt`.
 
 ## Project Organization
+
 ```angular2html
 .
 ├── data                                    # Normalized gene expression data from different GEO datasets
@@ -21,7 +47,7 @@ Install dependencies in `requirements.txt`.
 ├── gene_correlation                        # Calculate correlation between gene expression and patient characteristics
 ├── preprocess                              # Tools and utilities
 ├── README.md
-├── requirements.txt                        
+├── requirements.txt
 ├── roc_analysis.py                         # Analyze the ROC curve for binary classification
 ├── signature_correlation.py                # Calculate correlation between signature enrichment score and patient characteristics
 └── ssGSEA.py                               # Perform ssGSEA to get the enrichment scores
